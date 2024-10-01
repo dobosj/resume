@@ -53,7 +53,20 @@ nav ul li a {
     text-decoration: none;
 }
 
+.rolunk {
+    background-image: url('peter_apostol_vardob.jpg'); /* Az elérési út a háttérképhez */
+    background-size: cover; /* A kép méretezése a teljes elem lefedéséhez */
+    background-position: center; /* A kép középre igazítása */
+    padding: 20px;
+   /* color: white; A szöveg fehérre állítása, hogy jól olvasható legyen */
+}
 
+.szolg {
+    background-image: url('hatterkep1.jpg'); /* Az elérési út a háttérképhez */
+    background-size: cover; /* A kép méretezése a teljes elem lefedéséhez */
+    background-position: center; /* A kép középre igazítása */
+    padding: 20px;
+}
 section {
     padding: 20px;
     margin: 20px;
