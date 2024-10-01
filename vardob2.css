@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url('kek.jpg');
 }
 
 header {
-    background-color: #373232;
+    background-color: #1b1d1d;
     color: white;
    /* align-items: center;*/
     padding: 1em;
@@ -53,20 +53,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-.rolunk {
-    background-image: url('peter_apostol_vardob.jpg'); /* Az elérési út a háttérképhez */
-    background-size: cover; /* A kép méretezése a teljes elem lefedéséhez */
-    background-position: center; /* A kép középre igazítása */
-    padding: 20px;
-   /* color: white; A szöveg fehérre állítása, hogy jól olvasható legyen */
-}
-
-.szolg {
-    background-image: url('hatterkep1.jpg'); /* Az elérési út a háttérképhez */
-    background-size: cover; /* A kép méretezése a teljes elem lefedéséhez */
-    background-position: center; /* A kép középre igazítása */
-    padding: 20px;
-}
 section {
     padding: 20px;
     margin: 20px;
@@ -79,7 +65,7 @@ section {
 }
 
 footer {
-    background: #373232;
+    background: #1b1d1d;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
