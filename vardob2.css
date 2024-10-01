@@ -10,23 +10,49 @@ header {
     color: white;
    /* align-items: center;*/
     padding: 1em;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav {
     display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
 }
 
-nav .logo a {
-    color: #fff;
-    width: 100px;
-    text-decoration: none;
+.logo {
+    margin-right: auto; /* Logó bal oldalon */
 }
 
 .logo img {
-    width: 15px;
-    height: auto; 
-    margin-right: auto;
+    width: 30px;
+    height: auto;
 }
+
+.site-title {
+    color: #fff;
+    margin-left: 1em;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none; /* Pontok eltüntetése */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 2em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
 
 section {
     padding: 20px;
