@@ -58,6 +58,26 @@ nav {
 }
 
 
+.image-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    margin: 20px; 
+}
+
+.image-item {
+    flex: 1; 
+    max-width: 18%; 
+    box-sizing: border-box; 
+}
+
+.image-item img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
 .scroll-section {
     height: 100vh;
     display: flex;
