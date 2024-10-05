@@ -39,6 +39,25 @@ nav {
     align-items: center;
 }
 
+#peldak {
+    margin: 40px auto; 
+    padding: 20px; 
+    max-width: 1400px; 
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+}
+
+#peldak h2 {
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+#peldak p {
+    margin-bottom: 20px; 
+    line-height: 1.6; 
+}
+
+
 .scroll-section {
     height: 100vh;
     display: flex;
