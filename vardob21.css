@@ -18,7 +18,7 @@ header {
 }
 
 .logo {
-    margin-right: auto; /* Logó bal oldalon */
+    margin-right: auto;
 }
 
 .logo img {
@@ -53,21 +53,21 @@ nav {
     text-align: center;
     border-radius: 10px;
 }
-/*itt kezdődik*/
-#munka { /*telefonos verzióban innentől a #munka h2ig zöld*/
+
+#munka { 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 #munka h2 {
-    margin-bottom: 20px; /* Helyet biztosít a cím alatt */
+    margin-bottom: 100px; 
 } 
 
 .munka {
-    width: calc(30.33% - 20px); /* Három oszlop és 20px margó */
-    margin: 10px; /* Középső margó */
-    box-sizing: border-box; /* Margók és padding ne befolyásolják a méretet */
+    width: calc(30.33% - 20px); 
+    margin: 10px; 
+    box-sizing: border-box; 
 }
 
 .image-container {
@@ -105,8 +105,6 @@ nav {
     opacity: 1;
 }
 
-/*idáig*/
-
 nav ul {
     list-style: none;
     display: flex;
@@ -117,14 +115,6 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
-}
-
-
-
-.content-section {
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem;
 }
 
 footer {
