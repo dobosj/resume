@@ -8,21 +8,21 @@ body {
 header {
     background-color: #1b1d1d;
     color: white;
-    padding: 1.5em; /* Csökkentett padding */
+    padding: 1.5em; 
     display: flex;
-    flex-direction: column; /* Vertikális elrendezés mobilon */
-    align-items: center; /* Középre igazítás */
+    flex-direction: column; 
+    align-items: center; 
 }
 
 nav {
     display: flex;
     align-items: center;
-    flex-direction: column; /* Vertikális elrendezés mobilon */
-    width: 100%; /* Full-width navigáció */
+    flex-direction: column; 
+    width: 100%; 
 }
 
 .logo {
-    margin-bottom: 1em; /* Térköz a logó alatt */
+    margin-bottom: 1em; 
 }
 
 .logo img {
@@ -32,21 +32,21 @@ nav {
 
 .site-title {
     color: #fff;
-    margin-left: 0.5em; /* Csökkentett margó */
-    font-size: 1.2em; /* Csökkentett betűméret */
+    margin-left: 0.5em; 
+    font-size: 1.2em; 
     text-decoration: none;
 }
 
 nav ul {
     display: flex;
-    flex-direction: column; /* Vertikális lista mobilon */
+    flex-direction: column; 
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 nav ul li {
-    margin: 0.5em 0; /* Csökkentett margó */
+    margin: 0.5em 0; 
 }
 
 nav ul li a {
@@ -54,48 +54,45 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Szolgáltatások szekció */
+
 #szolg {
     text-align: center;
-    margin: 20px 0; /* Csökkentett margin */
+    margin: 20px 0; 
 }
 
 #szolg h2 {
-    font-size: 24px; /* Csökkentett betűméret */
-    margin-bottom: 10px; /* Csökkentett margin */
+    font-size: 24px; 
+    margin-bottom: 10px; 
     color: #333;
 }
 
-/* Szolgáltatások konténer */
 #services {
     display: flex;
-    flex-direction: column; /* Egymás alá rendezett gombok */
-    align-items: center; /* Középre igazítás */
-    gap: 10px; /* Csökkentett távolság */
-    padding: 10px; /* Csökkentett padding */
-    background-image: url('epitesz.jpg');
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px;
+    padding: 10px; 
+    background-image: url('szolg_hatter.avif');
 }
 
-/* Gombszerű stílus */
 .service {
     background-color: #ffffff;
-    padding: 10px 20px; /* Csökkentett padding */
+    padding: 10px 20px; 
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     cursor: pointer;
-    width: 90%; /* Szélesség 90% */
+    width: 90%; 
     max-width: 400px;
     text-align: center;
 }
 
 .service h2 {
-    font-size: 14px; /* Növelt betűméret */
+    font-size: 14px; 
     color: #555;
 }
 
-/* Hover-effekt */
 .service:hover {
     background-color: #f0f0f0;
     transform: translateY(-3px);
@@ -103,15 +100,15 @@ nav ul li a {
 }
 
 section {
-    padding: 10px; /* Csökkentett padding */
-    margin: 10px; /* Csökkentett margin */
+    padding: 10px; 
+    margin: 10px; 
     background-color: white;
     border-radius: 8px;
 }
 
 .container {
-    max-width: 90%; /* Szélesség korlátozása mobilon */
-    margin: 20px auto; /* Csökkentett margin */
+    max-width: 90%; 
+    margin: 20px auto; 
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
@@ -121,20 +118,20 @@ section {
 
 h1 {
     color: #333;
-    margin-bottom: 10px; /* Csökkentett margin */
+    margin-bottom: 10px; 
 }
 
 input {
     padding: 10px;
-    width: 80%; /* Szélesség 80% */
-    font-size: 14px; /* Csökkentett betűméret */
+    width: 80%; 
+    font-size: 14px; 
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
 button {
     padding: 10px;
-    font-size: 14px; /* Csökkentett betűméret */
+    font-size: 14px;
     background-color: #007bff;
     color: white;
     border: none;
@@ -158,7 +155,7 @@ button:hover {
 }
 
 .image-card img {
-    width: 100px; /* Szélesség 100px */
+    width: 100px; 
     height: auto;
     border-radius: 4px;
 }
@@ -174,21 +171,20 @@ footer {
     padding: 1rem 0;
 }
 
-/* Media query a kisebb képernyők optimalizálásához */
 @media (max-width: 768px) {
     header {
         padding: 1em;
     }
     
     nav ul {
-        flex-direction: column; /* Vertikális elrendezés mobilon */
+        flex-direction: column; 
     }
 
     .service {
-        width: 90%; /* Szélesség 90% */
+        width: 90%; 
     }
 
     .image-card img {
-        width: 80px; /* Kisebb képek mobilon */
+        width: 80px;
     }
 }

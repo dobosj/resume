@@ -112,14 +112,14 @@ nav {
 .image-container {
     position: relative;
     overflow: hidden;
-    width: 100%; /* 100% szélesség a tartalom számára */
-    height: 200px; /* Egységes magasság */
+    width: 100%; 
+    height: 200px; 
 }
 
 .image-container img {
-    width: 100%; /* 100% szélesség */
-    height: 100%; /* 100% magasság */
-    object-fit: cover; /* Kép arányainak megőrzése */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
     transition: transform 0.3s;
     padding-left: 0%;
 }
