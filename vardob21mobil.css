@@ -126,21 +126,21 @@ nav ul li a {
     box-sizing: border-box;
 }
 
-.image-container {
+.epuletek {
     position: relative;
     overflow: hidden;
     width: 100%; 
     height: 200px; 
 }
 
-.image-container img {
+.epuletek img {
     width: 100%; 
     height: 100%; 
     object-fit: cover; 
     transition: transform 0.3s;
 }
 
-.image-container:hover img {
+.epuletek:hover img {
     transform: scale(1.05);
 }
 
@@ -156,7 +156,7 @@ nav ul li a {
     transition: opacity 0.3s;
 }
 
-.image-container:hover .info {
+.epuletek:hover .info {
     opacity: 1;
 }
 
