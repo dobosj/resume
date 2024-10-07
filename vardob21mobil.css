@@ -14,12 +14,13 @@ header {
     color: white;
     padding: 1.5em; 
     display: flex;
-    flex-direction: column; 
+    flex-direction: row; 
     align-items: center; 
+    width: 100%;
 }
 
 .logo {
-    margin-bottom: 1em; 
+    margin-right: 1em; 
 }
 
 .logo img {
@@ -29,8 +30,8 @@ header {
 
 .site-title {
     color: #fff;
-    margin-left: 0.5em; 
-    font-size: 1.2em; 
+    margin-left: 0; 
+    font-size: 1.5em; 
     text-decoration: none;
 }
 
@@ -60,6 +61,7 @@ nav ul li a {
     max-width: 90%; 
     background-color: #f9f9f9;
     border-radius: 10px;
+    text-align: justify;
 }
 
 #peldak h2 {

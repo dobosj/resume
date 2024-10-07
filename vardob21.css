@@ -45,6 +45,7 @@ nav {
     max-width: 1400px; 
     background-color: #f9f9f9; 
     border-radius: 10px; 
+    text-align: justify;
 }
 
 #peldak h2 {
@@ -93,6 +94,9 @@ nav {
     border-radius: 10px;
 }
 
+section.munka {
+    justify-content: space-between;
+}
 #munka { 
     display: flex;
     flex-wrap: wrap;
