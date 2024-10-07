@@ -11,19 +11,19 @@ header {
     padding: 1.5em; 
     display: flex;
     flex-direction: column; 
-    align-items: flex-start; 
+    align-items: center; 
 }
 
 nav {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     margin-left: 1em;
     flex-direction: column; 
     width: 100%; 
 }
 
 .logo {
-    margin-bottom: 1em; 
+    margin-left: auto; 
 }
 
 .logo img {
@@ -48,6 +48,7 @@ nav ul {
 
 nav ul li {
     margin: 0.5em 0; 
+    text-align: center;
 }
 
 nav ul li a {
@@ -133,7 +134,7 @@ input {
 button {
     padding: 10px;
     font-size: 14px;
-    background-color: #007bff;
+    background-color: rgb(141, 214, 214);
     color: white;
     border: none;
     border-radius: 4px;
@@ -141,7 +142,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #7198c1;
 }
 
 #imageResults {
