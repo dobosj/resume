@@ -13,6 +13,9 @@ header {
     justify-content: space-between;
 }
 
+.rolunk {
+    text-align: justify;
+}
 nav {
     display: flex;
     align-items: center;
